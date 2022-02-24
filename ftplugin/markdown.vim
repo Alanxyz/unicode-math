@@ -1,3 +1,7 @@
+
+if &ft == 'markdown' || &ft == 'vimwiki' || &ft == 'wiki' || &ft == 'text'
+
+
 " ALFABETO GRIEGO
 
 iab gA          Α
@@ -476,3 +480,17 @@ iab ^=           ⁼
 iab ^(           ⁽
 iab ^)           ⁾
 iab inv         ⁻¹
+
+" FISICA
+
+iab E3          × 10³  
+iab E6          × 10⁶  
+iab E9          × 10⁹  
+iab E12         × 10¹²  
+iab e3          × 10⁻³  
+iab e6          × 10⁻⁶  
+iab e9          × 10⁻⁹  
+iab e12         × 10⁻¹²  
+
+
+endif
